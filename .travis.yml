@@ -17,5 +17,7 @@ deploy:
   app: "Docker-React-Test"
   env: "DockerReactTest-env"
   bucket_name: "elasticbeanstalk-ap-south-1-090330066049"
+  bucket_path: "Docker-React-Test"
+  skip_cleanup: true
   on:
     branch: master
