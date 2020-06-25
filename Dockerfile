@@ -8,6 +8,7 @@ RUN npm run build
 #will out put /app/build
 
 FROM nginx:alpine
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 
 
