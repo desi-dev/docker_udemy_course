@@ -18,6 +18,6 @@ deploy:
   region: "ap-south-1"
   app: "Docker-React-Test"
   env: "DockerReactTest-env"
-  bucket_name: "arn:aws:s3:::elasticbeanstalk-ap-south-1-090330066049"
+  bucket_name: "elasticbeanstalk-ap-south-1-090330066049"
   on:
     branch: master
